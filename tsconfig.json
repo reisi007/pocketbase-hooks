@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    // Or a more recent ECMAScript version
+    "module": "commonjs",
+    // PocketBase uses CommonJS
+    "outDir": "./dist",
+    // Where the compiled JavaScript files will go
+    "strict": true,
+    // Enable strict type checking (recommended)
+    "esModuleInterop": true,
+    // Allows importing CommonJS modules as ES modules
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowJs": false,
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+
+  // Include all .ts files in the root directory
+  "exclude": [
+    "node_modules"
+  ]
+}
+    

@@ -1,0 +1,15 @@
+{
+  "name": "pocketbase-hooks",
+  "version": "1.0.0",
+  "description": "Pocketbase hooks",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
